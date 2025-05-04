@@ -161,5 +161,29 @@ export default function Home() {
               <div className="absolute inset-0 flex items-center justify-center">
                 <span
                   style={{
-                    fontStyle: "
-
+                    fontStyle: "normal",
+                    fontWeight: "normal",
+                    fontSize: "8pt",
+                    fontFamily: "Helvetica",
+                    color: "rgb(7, 0, 103)",
+                    textAlign: "center",
+                    fontWeight: "bold",
+                  }}
+                >
+                  DATOS GENERALES
+                </span>
+              </div>
+            </div>
+            <div className="w-full">
+              <table className="w-full border-collapse text-xs" style={{ borderSpacing: "0" }}>
+                <tbody>
+                  <tr>
+                    <td className="py-1 px-2 w-[15%]" style={{ borderBottom: "1px solid transparent" }}>
+                      <span
+                        style={{
+                          fontStyle: "normal",
+                          fontWeight: "normal",
+                          fontSize: "8pt",
+                          fontFamily: "Helvetica",
+                          color: "rgb(7, 0, 103)",
+                         
