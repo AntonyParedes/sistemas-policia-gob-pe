@@ -201,4 +201,29 @@ export default function Home() {
                       <span
                         style={{
                           fontStyle: "normal",
-                          fontWeight
+                          fontWeight: "normal",
+                          fontSize: "8pt",
+                          fontFamily: "Helvetica",
+                          color: "rgb(7, 0, 103)",
+                          fontWeight: "bold",
+                          display: "inline-block",
+                          width: "100%",
+                        }}
+                      >
+                        FECHA Y HORA HECHO:
+                      </span>
+                    </td>
+                    <td className="py-1 px-2 w-[30%]" style={{ borderBottom: "1px solid transparent" }}>
+                      <span style={{ display: "inline-block", width: "175px" }}>{denunciaData.fechaHecho}</span>
+                    </td>
+                  </tr>
+                  {/* Sigue con el resto de la tabla */}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  )
+}
